@@ -7,7 +7,7 @@ import java.util.Optional;
 public interface ChaveGateway {
     Chave salvar(Chave chave);
 
-    List<Chave> listarTodos();
+    List<Chave> listarTodas();
 
     Optional<Chave> buscarPorId(Long id);
 
